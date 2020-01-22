@@ -10,8 +10,8 @@ type Creds struct {
 
 func GetCredentials() Creds {
 	return Creds{
-		AccessKey: os.Getenv("ACCESS_KEY"),
-		SecretKey: os.Getenv("SECRET_KEY"),
-		Region:    os.Getenv("REGION"),
+		AccessKey: "", //Load your access key here
+		SecretKey: "", //Load your secret key here
+		Region:    "", //Load your region here
 	}
 }
