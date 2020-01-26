@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/aws/aws-sdk-go/service/sns"
+	"github.com/borlinp/amazon-sns-sqs/common"
 
-	"jabbok.ci.org/borlinp/amazon-sqs-sns/common"
+	"github.com/aws/aws-sdk-go/service/sns"
 )
 
 func main() {
