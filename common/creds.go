@@ -1,7 +1,5 @@
 package common
 
-import "os"
-
 type Creds struct {
 	AccessKey string
 	SecretKey string
